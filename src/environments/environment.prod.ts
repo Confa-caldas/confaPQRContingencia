@@ -5,7 +5,7 @@ const HOST = 'https://3voixiptij.execute-api.us-east-1.amazonaws.com/PD';
 export const environment = {
   API_PUBLIC: HOST + '/',
   production: true,
-  context: 'production',
+  context: 'master',
   version: packageJson.version,
   minutesInactive: 15,
 };
